@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="32×32">
+    <link href="css/stil.css" rel="stylesheet" type="text/css">
+    <title>Desen</title>
+</head>
+<body>
+    <nav>
+        <p class="navbarButton">    
+            <a href="index.html">ACASĂ</a>
+            <a href="despre.html">DESPRE</a>
+            <a href="video.html">MATERIALE VIDEO</a>
+            <a href="inregistreaza.html">ÎNREGISTRARE</a>
+            <a href="desen.html">DESEN</a>
+            <a href="invat.html">ÎNVĂȚ</a>
+        </p>   
+    </nav>
+
+    <section>
+        <h2>
+            Bun venit pe pagina Desen!
+        </h2>
+        <div>
+            <svg width="100%" height="100" class="sun"> 
+                <circle cx="50" cy="50" r="50" fill="url(#grad1)">
+                  <animate
+                    attributeName="cx"
+                    begin="0s"
+                    dur="15s"
+                    from="-20%"
+                    to="120%"
+                    repeatCount="indefinite" />
+                  <animate 
+                    attributeName="fill" 
+                    attributeType="CSS" 
+                    from="yellow" 
+                    to="white" 
+                    begin="0s" 
+                    dur="30s" 
+                    repeatCount="indefinite" />
+                </circle>
+          </svg>
+        </div>
+        <div>
+            <svg width="200" height="300" viewBox="-100 -100 200 200" class="tree">
+                <polygon points="0,0 80,120 -80,120" />
+                <polygon points="0,-40 60,60 -60,60" />
+                <polygon points="0,-80 40,0 -40,0" />
+                <rect x="-20" y="120" width="40" height="30" />
+            </svg>
+    
+            <svg width="300" height="100">
+                <g transform="translate(0,0)">
+                  <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:10"> Hârtia din care sunt create cărțile provine din copaci!
+                    <animateMotion path="M 0 50 L 100 50" dur="5s" repeatCount="indefinite" />
+                  </text>
+                </g> 
+              </svg>
+    
+            <svg width="200" height="200" viewBox="-100 -100 200 200" class="house">
+                <!-- Pereti -->
+                <polygon points="-65,80 -65,-10 0,-70 65,-10 65,80" />
+                
+                <!-- Acoperis -->
+                <path d="M-75,-8 L0,-78 L75,-8 Z" />
+                
+                <!-- Usa -->
+                <rect x="-45" y="10" width="30" height="60" />
+                <circle cx="-35" cy="40" r="2" />
+                
+                <!-- Scari -->
+                <rect class="stairs" x="-47" y="70" width="34" height="5" />
+                <rect class="stairs" x="-49" y="75" width="38" height="5" />
+                
+                <!-- Fereastra -->
+                <defs>
+                    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                      <stop offset="50%" stop-color="yellow" />
+                      <stop offset="100%" stop-color="#FFD700" />
+                    </radialGradient>
+                  </defs>
+                <rect class="window" x="5" y="15" width="40" height="35" />
+                <line x1="5" y1="32.5" x2="45" y2="32.5" />
+                <line x1="25" y1="15" x2="25" y2="50" />
+                <rect x="2" y="48" width="46" height="5" />
+            </svg>      
+        </div>     
+    </section>
+    <footer>
+        <hr>
+        <p>&copy; 2024. Cartea</p>
+    </footer>
+</body>
+</html>

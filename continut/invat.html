@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="32×32">
+    <link href="css/stil.css" rel="stylesheet" type="text/css">
+    <script type = "text/javascript" src="js/script.js"></script>
+    <title>Învăț</title>
+</head>
+<body>
+    <nav>
+        <p class="navbarButton">    
+            <a href="index.html">ACASĂ</a>
+            <a href="despre.html">DESPRE</a>
+            <a href="video.html">MATERIALE VIDEO</a>
+            <a href="inregistreaza.html">ÎNREGISTRARE</a>
+            <a href="desen.html">DESEN</a>
+            <a href="invat.html">ÎNVĂȚ</a>
+        </p>   
+    </nav>
+    <section>
+        <div>
+            <button onclick="dataCurenta()">Data curenta</button>
+            <p id="DataCurenta">Data curenta:</p>
+        </div>
+        <div>
+            <button onclick="adresaURL()">Adresa URL</button>
+            <p id="AdresaURL">Adresa URL:</p>
+        </div>
+        <div>
+            <button onclick="timpReal()">Timp Real</button>
+            <p id="TimpReal">Timp Real:</p>
+        </div>
+        <div>
+            <button onclick="browser()">Despre Browser</button>
+            <p id="NumeBrowser">Timp Real:</p>
+            <p id="VersiuneBrowser">Versiunea:</p>
+            <p id="LocatieUser">Locatie User:</p>
+        </div>
+    </section>
+    <section>
+        <form id="myform">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            <input type="submit">
+          </form>
+        <canvas id="MyCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+    </section>
+    <footer>
+        <hr>
+        <p>&copy; 2024. Cartea</p>
+    </footer>
+</body>
+</html>

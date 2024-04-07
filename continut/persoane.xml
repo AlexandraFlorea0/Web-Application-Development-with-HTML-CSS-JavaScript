@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <ocupatia>Inginer</ocupatia>
+        <telefon>0712345678</telefon>
+    </persoana>
+    <persoana id="2">
+        <nume>Ionescu</nume>
+        <prenume>Andrei</prenume>
+        <varsta>21</varsta>
+        <ocupatia>Student</ocupatia>
+        <telefon>0712389678</telefon>
+    </persoana>
+    <persoana id="3">
+        <nume>Gavrilescu</nume>
+        <prenume>Cezar</prenume>
+        <varsta>29</varsta>
+        <ocupatia>Lucrator Comercial</ocupatia>
+        <telefon>0712345008</telefon>
+    </persoana>
+    <persoana id="4">
+        <nume>Anastasoaei</nume>
+        <prenume>Emilia</prenume>
+        <varsta>20</varsta>
+        <ocupatia>Student</ocupatia>
+        <telefon>0719845678</telefon>
+    </persoana>
+    <persoana id="5">
+        <nume>Popeasca</nume>
+        <prenume>Andreea</prenume>
+        <varsta>39</varsta>
+        <ocupatia>Contabil</ocupatia>
+        <telefon>0717805678</telefon>
+    </persoana>
+    <adresa id ="10">
+        <strada>Strada Laleleor</strada>
+        <numar>100</numar>
+        <localitate>Iasi</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+    </adresa>
+</persoane>

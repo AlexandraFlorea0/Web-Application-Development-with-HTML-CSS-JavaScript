@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="32×32">
+    <link href="css/stil.css" rel="stylesheet" type="text/css">
+    <title>Înregistrează</title>
+</head>
+<body>
+    <nav>
+        <p class="navbarButton">    
+            <a href="index.html">ACASĂ</a>
+            <a href="despre.html">DESPRE</a>
+            <a href="video.html">MATERIALE VIDEO</a>
+            <a href="inregistreaza.html">ÎNREGISTRARE</a>
+            <a href="desen.html">DESEN</a>
+            <a href="invat.html">ÎNVĂȚ</a>
+        </p>   
+    </nav>
+    <section>
+        <h1>Formular de înregistrare</h1>
+            <p>
+                Te invităm să devii membru al comunității pentru a putea beneficia de informațiile de pe site.
+            </p>
+        <fieldset>
+            <legend>INFORMAȚII GENERALE:</legend>
+            <form>
+                <label for="Nume_utilizator">Nume utilizator: </label>
+                <input type="text" id="Nume_utilizator" name="nume_utilizator" placeholder="nume utilizator"><br/><br/>
+                <label for="Parola">Parola: </label>
+                <input type="password" id="Parola" name="parola" placeholder="•••" ><br/><br/>
+                <label for="Nume">Nume: </label>
+                <input type="text" id="Nume" name="nume" placeholder="nume"><br/><br/>
+                <label for="Prenume">Prenume: </label>
+                <input type="text" id="Prenume" name="prenume" placeholder="prenume"><br/><br/>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" placeholder= "email"><br/><br/>
+                <label for="Telefon">Număr telefon:</label>
+                <input type="tel" id="Telefon" name="Telefon" placeholder="numar de telefon"><br/>
+            </form>
+        </fieldset><br/>
+        <fieldset>
+            <legend>INFORMAȚII PERSONALE:</legend>
+            <form>
+                <label for="Sexul">Sexul:</label>
+                <select id="Sexul" name="Sexul">
+                    <option value="Masculin" selected>Masculin</option>
+                    <option value="Feminin">Feminin</option>
+                </select><br/><br/>
+                <label for="Cartea_preferată">Cartea preferată: </label>
+                <input list="Cartea_pref" name="Cartea_preferată" id="Cartea_preferată" placeholder="cartea preferată">
+                <datalist id="Cartea_pref">
+                    <option value="Marele Gatsby - F. Scott Fitzgerald">
+                    <option value="Viata lui Pi - Yann Martel">
+                    <option value="Un veac de singurătate - Gabriel Garcia Marquez">
+                    <option value="Hoțul de cărți - Markus Zusak">
+                    <option value="În căutarea timpului pierdut - Marcel Proust">
+                </datalist><br/><br/>
+                <label for="culoare_preferata">Culoarea preferată:</label>
+                <input type="color" id="culoare_preferata" name="culoare_preferata" value="#f000f0"><br/><br/>
+                <label for="data_nasterii">Data nașterii:</label>
+                <input type="date" id="data_nasterii" name="data_nasterii"><br/><br/>
+                <label for="ora">La ce oră îți place să citești?:</label>
+                <input type="time" id="ora" name="ora"><br/><br/>
+                <label for="varsta">Vârsta:</label>
+                <input type="range" id="varsta" name="varsta" min="0" max="110"><br/><br/>
+                <label for="pagina_url">Oferă un link către site-ul tău preferat:</label>
+                <input type="url" id="pagina_url" name="pagina_url" placeholder="adaugă un link"><br/><br/>
+                <label for="descriere">Spune niște lucruri despre tine: </label>
+                <textarea  id="descriere" name="descriere" rows="5" cols="20"></textarea> <br/><br/>
+                <button type="submit" id="inregistreaza" disabled>Înregistrează</button> 
+            </form>
+        </fieldset>
+    </section>
+    <footer>
+        <hr>
+        <p>&copy; 2024. Cartea</p>
+    </footer>
+</body>
+</html>
